@@ -146,8 +146,8 @@ if __name__ == '__main__' :
 
     # Getting Training Data
     #train_stances_path = 'fnc-1/train_stances.csv'
-    train_stances_path = 'fnc-1/small_stances.csv'
-    train_bodies_path = 'fnc-1/train_bodies.csv'
+    train_stances_path = '/content/drive/MyDrive/datasets/fnc-1/small_stances.csv'
+    train_bodies_path = '/content/drive/MyDrive/datasets/fnc-1/train_bodies.csv'
     base_dir = 'body-keys'
 
     stances_df = pd.read_csv(train_stances_path)
